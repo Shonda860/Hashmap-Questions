@@ -16,23 +16,7 @@
 
 #while index that we are currently on is less than length minus 1 contine to keep checking
 
-# string = "shonda"
-
 def palindrome_permutation?(string)
-  # raise NotImplementedError, "palindrome_permutation? not implemented"
-  # i = 0
-  # while i < string.length - 1
-  # hash = {}
-  # string_array = string.split("")
-
-  # string_array.each do |letter|
-  #   p hash[letter] = true
-  # end
-
-  # string_array.each do |letter|
-  #   p hash[letter] = !hash[letter]
-  # end
-
   hash = {}
   string_array = string.split("")
   string_array.each do |letter|
